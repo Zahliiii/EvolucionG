@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport"
         content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-  <title>EvolucionG3</title>
+  <title>Evolución G</title>
   <style>
     html, body {
       margin: 0;
@@ -51,7 +51,7 @@
   </div>
   <button id="fullscreen-btn"></button>
 
-  <script src="Build/EvolucionG3.loader.js"></script>
+  <script src="Build/EvolucionGBuild.loader.js"></script>
   <script>
     const canvas = document.getElementById("unity-canvas");
     const container = document.getElementById("unity-container");
@@ -90,12 +90,12 @@
     }
 
     createUnityInstance(canvas, {
-      dataUrl: "Build/EvolucionG3.data",
-      frameworkUrl: "Build/EvolucionG3.framework.js",
-      codeUrl: "Build/EvolucionG3.wasm",
+      dataUrl: "Build/EvolucionGBuild.data",
+      frameworkUrl: "Build/EvolucionGBuild.framework.js",
+      codeUrl: "Build/EvolucionGBuild.wasm",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
-      productName: "EvolucionG3",
+      productName: "Evolución G",
       productVersion: "1.0"
     });
   </script>
